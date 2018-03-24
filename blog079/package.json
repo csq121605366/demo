@@ -1,0 +1,35 @@
+{
+    "name": "blog079",
+    "description": "CSDN blog02",
+    "version": "1.0.0",
+    "author": "",
+    "private": true,
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+        "build": "rimraf dist && cross-env NODE_ENV=production webpack --progress --hide-modules"
+    },
+    "dependencies": {
+        "babel-polyfill": "^6.23.0",
+        "vue": "^2.2.1",
+        "vue-router": "^2.3.0",
+        "vue-superagent": "^1.2.0",
+        "vuex": "^2.2.1"
+    },
+    "devDependencies": {
+        "babel-core": "^6.0.0",
+        "babel-loader": "^6.0.0",
+        "babel-preset-latest": "^6.0.0",
+        "cross-env": "^3.0.0",
+        "css-loader": "^0.25.0",
+        "file-loader": "^0.9.0",
+        "html-webpack-plugin": "^2.28.0",
+        "node-sass": "^4.5.0",
+        "rimraf": "^2.6.1",
+        "sass-loader": "^5.0.1",
+        "url-loader": "^0.5.8",
+        "vue-loader": "^11.1.4",
+        "vue-template-compiler": "^2.2.1",
+        "webpack": "^2.2.0",
+        "webpack-dev-server": "^2.2.0"
+    }
+}
